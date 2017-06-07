@@ -7,7 +7,7 @@ import { suite, test, slow, timeout } from "mocha-typescript";
     }
 }
 ```
-The test UI will reguster a suite with tests for the `@suite` and `@test` decorators.
+The test UI will register a suite with tests for the `@suite` and `@test` decorators.
 When the tests run, the class will be instantiated once for each `@test` method and the method will be called.
 
 [![Build Status](https://travis-ci.org/pana-cc/mocha-typescript.svg?branch=master)](https://travis-ci.org/pana-cc/mocha-typescript)
